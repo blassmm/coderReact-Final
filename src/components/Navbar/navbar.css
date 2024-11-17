@@ -1,0 +1,49 @@
+/* @mixin repetirEstilo-boton($bgcolor, $size) {
+    min-width: $size;
+    background-color: $bgcolor;
+    transition: background-color 0.3s ease;
+  
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+
+/*    @include repetirEstilo-boton(blue, 250px);   asi se usa el @mixin*/
+
+.navbar {
+  height: 5rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  ul {
+    display: flex;
+    list-style: none;
+
+    li {
+      padding: 0 20px;
+    }
+  }
+
+  .brand {
+    align-items: center;
+  }
+
+  .cartwidget {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.active-link{
+  color: white;
+  border-bottom: 2px solid yellow;
+}
